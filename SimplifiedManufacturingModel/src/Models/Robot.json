@@ -1,10 +1,10 @@
 {
     "@context": "dtmi:dtdl:context;2",
-    "@id": "dtmi:RobEich:AdditiveManufacturing:Robot;1",
+    "@id": "dtmi:Demo:AdditiveManufacturing:Robot;1",
     "@type": "Interface",
     "displayName": "Production Robot",
     "extends": [
-        "dtmi:RobEich:AdditiveManufacturing:ProdAsset;1"
+        "dtmi:Demo:AdditiveManufacturing:ProdAsset;1"
     ],
     "contents": [
         {
@@ -15,7 +15,7 @@
         {
             "@type": "Relationship",
             "name": "feeds",
-            "target": "dtmi:RobEich:AdditiveManufacturing:ConvoyerBelt;1"
+            "target": "dtmi:Demo:AdditiveManufacturing:ConvoyerBelt;1"
         }
     ]
 }

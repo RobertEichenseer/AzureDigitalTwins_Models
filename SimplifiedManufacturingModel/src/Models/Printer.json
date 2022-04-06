@@ -1,10 +1,10 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:RobEich:AdditiveManufacturing:Test;1",
+  "@id": "dtmi:Demo:AdditiveManufacturing:Printer;1",
   "@type": "Interface",
   "displayName": "3D Printer",
   "extends": [
-    "dtmi:RobEich:AdditiveManufacturing:ProdAsset;1"
+    "dtmi:Demo:AdditiveManufacturing:ProdAsset;1"
   ],
   "contents":[
     {
@@ -16,7 +16,7 @@
     {
       "@type": "Relationship",
       "name": "feeds",
-      "target": "dtmi:RobEich:AdditiveManufacturing:ProdAsset;1"
+      "target": "dtmi:Demo:AdditiveManufacturing:ConveyorBelt;1"
     }
   ]
 }

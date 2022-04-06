@@ -1,6 +1,6 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:RobEich:AdditiveManufacturing:ProdAsset;1",
+  "@id": "dtmi:Demo:AdditiveManufacturing:ProdAsset;1",
   "@type": "Interface",
   "displayName": "ProdAsset",
   "contents": [
@@ -18,7 +18,7 @@
     },
     {
       "@type": "Property",
-      "name": "engergyConsumptionLast5Minutes",
+      "name": "energyConsumptionLast5Minutes",
       "displayName": "Energy Consumption 5 Minutes",
       "schema": "string"
     }

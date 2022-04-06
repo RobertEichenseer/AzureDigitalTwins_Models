@@ -18,6 +18,13 @@ All physical assets inherit or extend ProdAsset (Telemetry & Property).
 ### Relationships
 ![Relationships](SimplifiedManufacturingModel/img/Relationships.png)
 
+### Graph creation
+Executing [this Powershell script](./SimplifiedManufacturingModel/src/CreateADTGraph/CreateGraph.ps1) creates: 
+- Azure Resource Group named "AdtSample<< Guid >>"
+- Azure Digital Twins instance name "adtsample<< Guid >>"
+- Azure Digital Twins instance role assingment "Azure Digital Twins Data Owner" for the logged in User
+- Twin Instances + Relationships + Property Values
+
 
 
 

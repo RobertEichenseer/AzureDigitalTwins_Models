@@ -1,6 +1,6 @@
 {
     "@context": "dtmi:dtdl:context;2",
-    "@id": "dtmi:RobEich:AdditiveManufacturing:ProductionOrder;1",
+    "@id": "dtmi:Demo:AdditiveManufacturing:ProductionOrder;1",
     "@type": "Interface",
     "displayName": "Production Order",
     "contents": [
@@ -12,7 +12,7 @@
         {
             "@type": "Relationship", 
             "name": "assignedProductionLine",
-            "target": "dtmi:RobEich:AdditiveManufacturing:ProductionLine;1",
+            "target": "dtmi:Demo:AdditiveManufacturing:ProductionLine;1",
             "properties": [
                 {
                     "name": "productionManager",
